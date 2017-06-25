@@ -1,8 +1,8 @@
 # GettingAndCleaningData
 
 Overview
-This assignment demonstrates how to work with data split among several sources, combine and transform that data into a tidy data set and perform summarizations on the tidy data. A full description of the data used in this project can be found at The UCI Machine Learning Repository
-The source data for this project can be found here.
+This assignment demonstrates how to work with data split among several sources, combine and transform that data into a tidy data set and perform summarizations on the tidy data. A full description of the data used in this project can be found at http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+The source data for this project can be found https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 Project Summary
 This repo was created to complete the assignment for week 4 of Getting and Cleaning Data Coursera course.
@@ -35,19 +35,6 @@ WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the te
 SITTING (value 4): subject was sitting during the test
 STANDING (value 5): subject was standing during the test
 LAYING (value 6): subject was laying down during the test
-
-Outcome
-
-When the run_analysis.R script is run, the resulting table is a tidy data set.
-The data is considered to be tidy when:
-1.	Each variable must have its own column.
-2.	Each observation must have its own row.
-3.	Each value must have its own cell.
-source: Hadley Wickham's paper on tidy data http://http://www.jstatsoft.org/v59/i10/paper
-
-The output of the script is tidy because each column represents a variable and each row represents an observation, in this case a subject's activity is measured across several smartphone sensor readings. Additionally, all columns have descriptive names and all activities have been converted from code numbers to descriptive activity name.
-
-The assignment also requires that only the measurements on the mean and standard deviation for each measurement are extracted. The method used to select those variable looks for the strings "mean()" and "std()" and not the strings "mean" and "std" since the latter would include several variables that are not means of measurement data, such as meanFreq, which is a weighted average and not a mean.
 
 Included in the github repository are the following files:
 •	This ReadMe file
