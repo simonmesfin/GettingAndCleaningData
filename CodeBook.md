@@ -24,6 +24,7 @@ The files are split between test data, training data and two meta files as expla
 •	train.y\y_train.txt - Activity labels for the train set
 •	train.x\x_train.txt - Train data set containing 561 variables
 Assign column names and merge to create one data set.
+Select the variables before merging the datasets, then combine both the entire test and the entire train dataset with cbind separately and finally the full datasets with the selected variables are combined with rbind().
 
 Section 2. Extract only the measurements on the mean and standard deviation for each measurement.
 Create a logical vector that contains TRUE values for the ID, mean and stdev columns and FALSE values for the others. Subset this data to keep only the necessary columns.
