@@ -19,15 +19,20 @@ Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
-From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-
-Order
-
-First I selected the variables before merging the datasets. I combined both the entire test and the entire train dataset with cbind separately. Then the full datasets with the selected variables are combined with rbind(). 
+From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
 Purpose
 
 This assignment demonstrates how to work with data split among several sources, how to combine and transform that data into a tidy data set and then perform summarizations on the tidy data.
+
+Activity Labels
+
+WALKING (value 1): subject was walking during the test
+WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+SITTING (value 4): subject was sitting during the test
+STANDING (value 5): subject was standing during the test
+LAYING (value 6): subject was laying down during the test
 
 Outcome
 
