@@ -12,6 +12,20 @@ Triaxial acceleration from the accelerometer (total acceleration) and the estima
 Triaxial Angular velocity from the gyroscope.
 Its activity label.
 
+Identifiers
+
+* ‘subject’ - The ID of the test subject
+* ‘activity’ - The type of activity performed when the corresponding measurements were taken
+
+Activity Labels
+
+•	WALKING (value ‘1’): subject was walking during the test
+•	WALKING_UPSTAIRS (value ‘2’): subject was walking up a staircase during the test
+•	WALKING_DOWNSTAIRS (value ‘3’): subject was walking down a staircase during the test
+•	SITTING (value ‘4’): subject was sitting during the test
+•	STANDING (value ‘5’): subject was standing during the test
+•	LAYING (value ‘6’): subject was laying down during the test
+
 Section 1. Merge the training and the test sets to create one data set.
 After setting the source directory for the files, read into tables the data located in https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 The files are split between test data, training data and two meta files as explained below.
@@ -38,8 +52,7 @@ Use gsub function for pattern replacement to clean up the data labels.
 Section 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 Per the project instructions, we need to produce only a data set with the average of each variable for each activity and subject
 
-
-Variable Names
+Measurements (Variable Names)
 
  [1] "subject"                              "activity"                            
  [3] "timeBodyAccMean-X"                    "timeBodyAccMean-Y"                   
