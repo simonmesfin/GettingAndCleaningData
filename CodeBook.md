@@ -70,4 +70,3 @@ Variable Names
 [77] "frequenceBodyBodyGyroMagStd"          "frequenceBodyBodyGyroMagMeanFreq"    
 [79] "frequenceBodyBodyGyroJerkMagMean"     "frequenceBodyBodyGyroJerkMagStd"     
 [81] "frequenceBodyBodyGyroJerkMagMeanFreq"
-
