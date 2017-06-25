@@ -27,15 +27,6 @@ Read training and test dataset, variable names and subject index into R environm
 4.	Appropriately labels the data set with descriptive variable names. Give the selected descriptive names to variable columns, and
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject. Use pipeline command to create a new tidy dataset with command group_by and summarize_each in dplyr package.
 
-Activity Labels
-
-WALKING (value 1): subject was walking during the test
-WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-SITTING (value 4): subject was sitting during the test
-STANDING (value 5): subject was standing during the test
-LAYING (value 6): subject was laying down during the test
-
 Included in the github repository are the following files:
 •	This ReadMe file
 •	tidydata.txt - The outcome data table from the project
