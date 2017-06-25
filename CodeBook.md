@@ -14,9 +14,9 @@ Triaxial acceleration from the accelerometer (total acceleration) and the estima
 Triaxial Angular velocity from the gyroscope.
 Its activity label.
 
-
 The data used for the project is here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+
 The files are split between test data, training data and two meta files as explained below.
 •	featureName - Contains the variable names for the test and training data
 •	activityName - Links the class labels with their activity name
@@ -26,3 +26,48 @@ The files are split between test data, training data and two meta files as expla
 •	train\train.subject - Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30
 •	train\train.y - Activity labels for the train set
 •	train\train.x - Train data set containing 561 variables
+
+Variable Names
+
+ [1] "subject"                              "activity"                            
+ [3] "timeBodyAccMean-X"                    "timeBodyAccMean-Y"                   
+ [5] "timeBodyAccMean-Z"                    "timeBodyAccStd-X"                    
+ [7] "timeBodyAccStd-Y"                     "timeBodyAccStd-Z"                    
+ [9] "timeGravityAccMean-X"                 "timeGravityAccMean-Y"                
+[11] "timeGravityAccMean-Z"                 "timeGravityAccStd-X"                 
+[13] "timeGravityAccStd-Y"                  "timeGravityAccStd-Z"                 
+[15] "timeBodyAccJerkMean-X"                "timeBodyAccJerkMean-Y"               
+[17] "timeBodyAccJerkMean-Z"                "timeBodyAccJerkStd-X"                
+[19] "timeBodyAccJerkStd-Y"                 "timeBodyAccJerkStd-Z"                
+[21] "timeBodyGyroMean-X"                   "timeBodyGyroMean-Y"                  
+[23] "timeBodyGyroMean-Z"                   "timeBodyGyroStd-X"                   
+[25] "timeBodyGyroStd-Y"                    "timeBodyGyroStd-Z"                   
+[27] "timeBodyGyroJerkMean-X"               "timeBodyGyroJerkMean-Y"              
+[29] "timeBodyGyroJerkMean-Z"               "timeBodyGyroJerkStd-X"               
+[31] "timeBodyGyroJerkStd-Y"                "timeBodyGyroJerkStd-Z"               
+[33] "timeBodyAccMagMean"                   "timeBodyAccMagStd"                   
+[35] "timeGravityAccMagMean"                "timeGravityAccMagStd"                
+[37] "timeBodyAccJerkMagMean"               "timeBodyAccJerkMagStd"               
+[39] "timeBodyGyroMagMean"                  "timeBodyGyroMagStd"                  
+[41] "timeBodyGyroJerkMagMean"              "timeBodyGyroJerkMagStd"              
+[43] "frequenceBodyAccMean-X"               "frequenceBodyAccMean-Y"              
+[45] "frequenceBodyAccMean-Z"               "frequenceBodyAccStd-X"               
+[47] "frequenceBodyAccStd-Y"                "frequenceBodyAccStd-Z"               
+[49] "frequenceBodyAccMeanFreq-X"           "frequenceBodyAccMeanFreq-Y"          
+[51] "frequenceBodyAccMeanFreq-Z"           "frequenceBodyAccJerkMean-X"          
+[53] "frequenceBodyAccJerkMean-Y"           "frequenceBodyAccJerkMean-Z"          
+[55] "frequenceBodyAccJerkStd-X"            "frequenceBodyAccJerkStd-Y"           
+[57] "frequenceBodyAccJerkStd-Z"            "frequenceBodyAccJerkMeanFreq-X"      
+[59] "frequenceBodyAccJerkMeanFreq-Y"       "frequenceBodyAccJerkMeanFreq-Z"      
+[61] "frequenceBodyGyroMean-X"              "frequenceBodyGyroMean-Y"             
+[63] "frequenceBodyGyroMean-Z"              "frequenceBodyGyroStd-X"              
+[65] "frequenceBodyGyroStd-Y"               "frequenceBodyGyroStd-Z"              
+[67] "frequenceBodyGyroMeanFreq-X"          "frequenceBodyGyroMeanFreq-Y"         
+[69] "frequenceBodyGyroMeanFreq-Z"          "frequenceBodyAccMagMean"             
+[71] "frequenceBodyAccMagStd"               "frequenceBodyAccMagMeanFreq"         
+[73] "frequenceBodyBodyAccJerkMagMean"      "frequenceBodyBodyAccJerkMagStd"      
+[75] "frequenceBodyBodyAccJerkMagMeanFreq"  "frequenceBodyBodyGyroMagMean"        
+[77] "frequenceBodyBodyGyroMagStd"          "frequenceBodyBodyGyroMagMeanFreq"    
+[79] "frequenceBodyBodyGyroJerkMagMean"     "frequenceBodyBodyGyroJerkMagStd"     
+[81] "frequenceBodyBodyGyroJerkMagMeanFreq"
+
