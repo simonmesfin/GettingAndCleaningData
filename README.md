@@ -20,3 +20,13 @@ Extracts only the measurements on the mean and standard deviation for each measu
 Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+Included in the github repository are the following files:
+•	This ReadMe file
+•	tidydata.txt - The outcome data table from the project
+•	Codebook.MD - A listing and description of all the variables in the tidydata.txt file
+•	run_analysis.R - An R script detailing how to reproduce the tidydata.txt file
+To read the tidydata.txt into R, use the following script with the file in your working directory.
+
+write.table(groupData, "MeanData.txt", row.names = FALSE)
